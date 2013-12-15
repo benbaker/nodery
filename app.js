@@ -1,4 +1,10 @@
+// nodery 0.0.4
+
+
+
 // MODEL
+
+
 
 var mongoose = require('mongoose');
 
@@ -26,7 +32,11 @@ Model.find({'id': { $ne : 1 }, function(err, results) {
 
 module.exports.Model = Model;
 
+
+
 // SERVER
+
+
 
 var path = require('path');
 
@@ -45,3 +55,4 @@ app.get('/', function(req, res) {
 })
 
 app.listen(7076)
+
