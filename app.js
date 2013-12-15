@@ -1,3 +1,5 @@
+// MODEL
+
 var mongoose = require('mongoose');
 
 var modelSchema = mongoose.Schema({
@@ -24,3 +26,22 @@ Model.find({'id': { $ne : 1 }, function(err, results) {
 
 module.exports.Model = Model;
 
+// SERVER
+
+var path = require('path');
+
+app = require('express.io')()
+app.set('port', process.env.PORT || 3000);
+app.set('views', path.join(__dirname, 'views'));
+app.set('view engine', 'jade');
+app.http().io()
+
+app.io.route('ready', function(req) {
+	    req.io.emit( 'test', "Hello!" )
+})
+
+app.get('/', function(req, res) {
+	res.render('index');
+})
+
+app.listen(7076)
