@@ -14,7 +14,7 @@ var Model = mongoose.model('Model', modelSchema);
 
 Model.find({'id': { $ne : 1 }, function(err, results) {
     if (err) { 
-        conaole.log('shit!'); }
+        conaole.log('doh!'); }
     else {
         results.forEach( function(result) {
             console.log(result);
