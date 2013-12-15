@@ -1,4 +1,7 @@
 nodery
 ======
 
-Starter kit for node.js projects pre-loaded with socket.io, mongoose and express. 
+Node.js starter kit.
+- socket.io
+- mongoose
+- express
