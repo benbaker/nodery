@@ -1,4 +1,4 @@
-### A node.js starter kit
+### A node.js dev kit
 - mongoose
 - socket.io
 - express
