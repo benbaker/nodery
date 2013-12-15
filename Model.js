@@ -1,4 +1,4 @@
-var mongoose    = require('mongoose');
+var mongoose = require('mongoose');
 
 var modelSchema = mongoose.Schema({
     a: String,          
