@@ -1,4 +1,5 @@
 ### A node.js starter kit
-- socket.io
 - mongoose
+- socket.io
 - express
+- bootstrap
