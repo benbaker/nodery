@@ -9,16 +9,8 @@
     "express": "~3.4.4",
     "connect-redis": "~1.4.6",
     "jade": "*",
-    "mtgox": "~1.0.1",
-    "mtgox-apiv2": "~1.0.6",
-    "mtgox-socket-client": "~0.1.0",
-    "redis": "~0.9.0",
     "socket.io": "~0.9.16",
     "socket.io-client": "~0.9.16",
     "mongoose": "~3.8.1",
-    "exec-sync": "~0.1.6",
-    "goxstream": "~0.1.0",
-    "mongoose-times": "~0.1.0",
-    "brain": "~0.6.2"
   }
 }
