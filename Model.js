@@ -23,3 +23,4 @@ Model.find({'id': { $ne : 1 }, function(err, results) {
 });
 
 module.exports.Model = Model;
+
