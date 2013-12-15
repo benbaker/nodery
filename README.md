@@ -1,7 +1,7 @@
 nodery
 ======
 
-###Node.js starter kit.
+### A node.js starter kit.
 - socket.io
 - mongoose
 - express
