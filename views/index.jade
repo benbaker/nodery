@@ -6,46 +6,22 @@ html
 	link(rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css")
 	script(src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js")
 	script(src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js")
-
+	script(src="/socket.io/socket.io.js")
+	
 	body
 		.container
 			#dom
 
-		script(src="/socket.io/socket.io.js")
-		script.
-			
-			io = io.connect()
-			// Emit ready event with room name.
-			io.emit('ready', function(data) {
-				$('#dom').html("");
-				console.log(data);
-					data.forEach(function(block){
-					$('#dom').append('<h1>'+ block.title + '</h1>');
-					$('#dom').append('<p>' + new Date().toString()+'</p>');
-					$('#dom').append('<p>' + block.content + '</p>');
+	
+	script.
+		
+		io = io.connect();
 
-				})
-			});
+		io.emit('ready', function(data) {
+			console.log(data);
+		});
 
-			io.on('test', function(data) {
-				$('#dom').append('<h1>'+ data.message +'</h1>')
-			});
-
-			io.on('dom', function(data) {
-				$('#dom').html("");
-				console.log(data);
-				  var dom = "";
-				  dom += "<div class='col-md-6'>";
-				data.forEach(function(block){
-					dom += "<div class='panel panel-default'>";
-					dom += "<div class='panel-heading'>";
-					dom += "<a href='"+ (block.href) + "'>"+block.title+"</a>";
-					dom += "</div>";
-					dom += "<div class='panel-body'>";	
-					dom += '<p>' + block.content + '</p>';
-					dom += "</div></div>";
-				});
-					dom += "</div>";
-					$('#dom').append(dom);
-			});
-			
+		io.on('test', function(data) {
+			$('#dom').append('<h1>'
+			+ data.message +'</h1>')
+		});
