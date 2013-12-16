@@ -14,4 +14,4 @@
 
   npm install
 
-<a href="http://docs.mongodb.org/manual/installation/">Mongo Install</a>
+<a href="http://docs.mongodb.org/manual/installation/">Install MongoDB</a>
