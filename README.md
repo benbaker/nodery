@@ -8,10 +8,10 @@
 
 #### Install
 
-  git clone <a>git@github.com:benbaker/nodery.git</a>
+  clone
 
   cd nodery
 
   npm install
 
-<a href="http://docs.mongodb.org/manual/installation/">Mongo</a>
+<a href="http://docs.mongodb.org/manual/installation/">Mongo Install</a>
