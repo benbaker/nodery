@@ -1,4 +1,4 @@
-### node.js webapp kit
+### node webapp starter kit
 - mongoose
 - socket.io
 - express
