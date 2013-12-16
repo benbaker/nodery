@@ -1,7 +1,12 @@
-## so nosql 
-## much sockets 
+### so nosql 
+- mongo DB
 - mongoose
+
+### much sockets 
 - socket.io
-- express
+- express.io
+
+### very interface
+- jade
 - bootstrap
 - gfy
