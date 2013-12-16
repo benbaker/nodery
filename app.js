@@ -1,27 +1,20 @@
 // nodery 0.0.4
 
-
-// MODEL
-
 var mongoose = require('mongoose')
+
+// INSTALL MONGO DB ON OSX:
+// http://docs.mongodb.org/manual/tutorial/install-mongodb-on-os-x/
 
 var modelSchema = mongoose.Schema({
     a: String, b: Number,
     c: { type: Array, default: [1,2,3,4] },
 })
 
-modelSchema.methods.activate = function (req, res) {
-    console.log(this.id)
+modelSchema.methods.logMe = function (req, res) {
+    log(this)
 }
 
 var Model = mongoose.model('Model', modelSchema)
-
-Model.find({'id': { $ne : 1 }, function( err, results ) {
-	err ? log('could not find '):
-        results.forEach( function(result) {
-            log(result);
-        });
-});
 
 module.exports.Model = Model
 
@@ -37,13 +30,22 @@ app.set('view engine', 'jade')
 app.http().io()
 
 app.io.route('ready', function(req) {
-	    req.io.emit( 'test', "Hello!" )
+    req.io.emit('log', "sockets good");
+    Model.find({}, function(err, results){
+        req.io.emit('log', "mongoose good");
+        log(results);
+        if (err) {
+            req.io.emit('log', "mongoose BAD");
+        } else {
+            req.io.emit('log', "mongoose good");
+        }
+    });
 })
 
 app.get('/', function(req, res) {
-	res.render('index')
+	res.render('index');
 })
 
-app.listen(7076)
+app.listen(7076);
 
-var log = function(thing){console.log(thing)}
+var log = function(a){console.log(a);}
