@@ -4,3 +4,14 @@
 - express
 - bootstrap
 - gfy
+
+
+#### Install
+
+  clone
+
+  cd nodery
+
+  npm install
+
+<a href="http://docs.mongodb.org/manual/installation/">Install MongoDB</a>
