@@ -1,4 +1,4 @@
-### A node.js development kit
+### node.js webapp kit
 - mongoose
 - socket.io
 - express
