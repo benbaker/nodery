@@ -1,6 +1,5 @@
 // nodery 0.0.4
 
-
 // MODEL
 
 var mongoose = require('mongoose');
@@ -28,7 +27,6 @@ Model.find({'id': { $ne : 1 }, function(err, results) {
 });
 
 module.exports.Model = Model;
-
 
 // SERVER
 
