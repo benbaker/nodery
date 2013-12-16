@@ -1,17 +1,6 @@
-### a node webapp kit for joe
+### so nosql - much sockets 
 - mongoose
 - socket.io
 - express
 - bootstrap
 - gfy
-
-
-#### Install
-
-  clone
-
-  cd nodery
-
-  npm install
-
-<a href="http://docs.mongodb.org/manual/installation/">Install MongoDB</a>
