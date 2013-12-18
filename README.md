@@ -15,6 +15,5 @@
 
 
 ---
-made for joe.
 
-MIT
+MIT // joe
