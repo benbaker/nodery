@@ -1,5 +1,8 @@
-# node starter kit for Joe. Wow! 
+## node starter kit for Joe.
 
+real time web-apps FAST
+
+# Wow!
 #### such nosql 
 - <a href="http://docs.mongodb.org/manual/installation/">mongo DB</a>
 - <a href="http://mongoosejs.com/docs/guide.html">mongoose</a>
