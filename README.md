@@ -16,4 +16,4 @@
 
 ---
 
-MIT // joe
+license: joe
