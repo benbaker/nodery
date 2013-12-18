@@ -16,4 +16,4 @@
 
 ---
 
-license: joe
+License: joe
