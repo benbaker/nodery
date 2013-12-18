@@ -1,4 +1,6 @@
-#### Wow! such nosql 
+#Wow! node project starter
+
+#### such nosql 
 - <a href="http://docs.mongodb.org/manual/installation/">mongo DB</a>
 - <a href="http://mongoosejs.com/docs/guide.html">mongoose</a>
 
