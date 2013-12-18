@@ -1,8 +1,5 @@
-## node starter kit for Joe.
+# real time webap Wow!
 
-real time web-apps FAST
-
-# Wow!
 #### such nosql 
 - <a href="http://docs.mongodb.org/manual/installation/">mongo DB</a>
 - <a href="http://mongoosejs.com/docs/guide.html">mongoose</a>
@@ -15,3 +12,9 @@ real time web-apps FAST
 - <a href="http://jade-lang.com/">jade</a>
 - <a href="getbootstrap.com">bootstrap<a/>
 - <a href="http://www.myth.io/">myth</a>
+
+
+---
+made for joe.
+
+MIT
