@@ -1,4 +1,4 @@
-# node starter kit Wow! 
+# node starter kit for Joe. Wow! 
 
 #### such nosql 
 - <a href="http://docs.mongodb.org/manual/installation/">mongo DB</a>
@@ -7,8 +7,6 @@
 #### so sockets 
 - <a href="http://socket.io/">socket.io</a>
 - <a href="http://express-io.org/">express.io</a>
-"might replace with now"
-
 
 #### very interface
 - <a href="http://jade-lang.com/">jade</a>
