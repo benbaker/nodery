@@ -16,4 +16,4 @@
 
 ---
 
-License: joe
+joe == "8===D"
