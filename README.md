@@ -1,8 +1,5 @@
-# webap
-
+# a real time webapp template
 
 - <a href="http://mongoosejs.com/docs/guide.html">mongoose</a>
-
 - <a href="http://express-io.org/">express.io</a>
-
 - <a href="http://www.myth.io/">myth</a>
