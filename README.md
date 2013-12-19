@@ -1,4 +1,4 @@
-## a real time webapp template
+### a real time webapp in node
 
 - <a href="http://mongoosejs.com/docs/guide.html">mongoose</a>
 - <a href="http://express-io.org/">express.io</a>
